@@ -1,17 +1,24 @@
 # Samuel-Credpal Task
-This project contains Cypress tests for "https://www.credpal.com/" and end to end tests for the CredPal Web application.
+This project contains Cypress tests for "https://www.credpal.com/" and end-to-end tests for the CredPal Web application.
 
 ## About the project
-The page object model is used to ensure readablity, reusability and easy maintenance of the code.
+The page object model is used to ensure readability, reusability, and easy maintenance of the code.
 
 ## Getting Started 
 1. Clone the repository 
-2. Open in your choice IDE, prefarably Visual Studio code (Vs Code)
+2. Open in your choice IDE, preferably Visual Studio code (Vs Code)
 3. Run "npm install" to install dependencies 
 
 ## Running the Tests 
 To run the E2E test file only. 
 Run "npx cypress open"
-Choose web browser of choice
-Choose particular test to run, either Homepage or Affiliatepage
+
+
+Choose your web browser of choice
+Choose a particular test to run, either the Homepage or the Affiliate page
+
+NB: Before running the test, change the values of first name, last name, email, and phone number.
+
+Testcase URL : https://docs.google.com/spreadsheets/d/1QIm-OLKVuXXOeE0nLE80Rve9tUyvYR3mpDdlBbrBdF4/edit?usp=sharing
+
 
