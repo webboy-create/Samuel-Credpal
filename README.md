@@ -7,7 +7,7 @@ The page object model is used to ensure readability, reusability, and easy maint
 ## Getting Started 
 1. Clone the repository 
 2. Open in your choice IDE, preferably Visual Studio code (Vs Code)
-3. Run "npm install" to install dependencies 
+3. Run "npm init -y" to install node_modules 
 
 ## Running the Tests 
 To run the E2E test file only. 
