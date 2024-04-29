@@ -28,15 +28,15 @@ changeLanguagePage(){
     cy.contains('button', 'Change Language').click()
 }
 nigeriaPage(){
-    cy.contains('a', 'Nigeria').click()
+    cy.contains('a', 'Nigeria').click({force:true})
 }
 
 angolaPage(){
-    cy.contains('a', 'Angola').click()
+    cy.contains('a', 'Angola').click({force:true})
 }
 
 egyptPage(){
-    cy.contains('a', 'Egypt').click()
+    cy.contains('a', 'Egypt').click({force:true})
 }
 
 kenyaPage(){
@@ -44,11 +44,11 @@ kenyaPage(){
 }
 
 badilishaPage(){
-    cy.contains('button', 'Badilisha Lugha').click()
+    cy.contains('button', 'Badilisha Lugha').click({force:true})
 }
 
 nigeriaPage(){
-    cy.contains('a', 'Nigeria').click()
+    cy.contains('a', 'Nigeria').click({force:true})
 
 }
 

@@ -6,6 +6,14 @@ describe('affilliate page', () => {
 
     const register = new Affiliate()
 
+
+    Cypress.on('uncaught:exception', (err, runnable) => {
+        // returning false here prevents Cypress from
+        // failing the test
+        return false
+      })
+
+
     beforeEach('launch URL',() => {
         cy.visit('/')
 

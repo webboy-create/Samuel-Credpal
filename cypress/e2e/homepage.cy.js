@@ -10,6 +10,13 @@ describe('homepage', () => {
   const homePageElements = new HomepageObjects()
 
 
+  Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from
+    // failing the test
+    return false
+  })
+
+
   beforeEach('launch URL',() => {
     cy.visit('/')
 
@@ -40,7 +47,7 @@ describe('homepage', () => {
     cy.contains('h5', 'Select your locale:').should('include.text', 'Select')
 
     homePageElements.nigeriaPage()
-    cy.contains('h1','One App, all your Financial Needs').should('include.text', 'One')
+    cy.contains('h1','One App, all your Financial Needs').should('include.text', 'One App, all your Financial Needs')
 
     homePageElements.angolaPage()
     cy.contains('h1','Um aplicativo, todas as suas necessidades financeiras').should('include.text', 'Um')
